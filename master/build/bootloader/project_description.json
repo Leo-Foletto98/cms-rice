@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Espressif/frameworks/esp-idf-v4.2.3/components/bootloader/subproject",
+    "build_dir":          "D:/NeoFarm/NeoFarm-nivel-agua/master/build/bootloader",
+    "config_file":        "D:/NeoFarm/NeoFarm-nivel-agua/master/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2.3",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Espressif/frameworks/esp-idf-v4.2.3/components/efuse/Kconfig;C:/Espressif/frameworks/esp-idf-v4.2.3/components/esp32/Kconfig;C:/Espressif/frameworks/esp-idf-v4.2.3/components/esp_common/Kconfig;C:/Espressif/frameworks/esp-idf-v4.2.3/components/log/Kconfig;C:/Espressif/frameworks/esp-idf-v4.2.3/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Espressif/frameworks/esp-idf-v4.2.3/components/bootloader/Kconfig.projbuild;C:/Espressif/frameworks/esp-idf-v4.2.3/components/esptool_py/Kconfig.projbuild;C:/Espressif/frameworks/esp-idf-v4.2.3/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Espressif/frameworks/esp-idf-v4.2.3/components/bootloader", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/bootloader_support", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/efuse", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/esp32", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/esp_common", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/esp_rom", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/esptool_py", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/log", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/bootloader/subproject/main", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/bootloader/subproject/components/micro-ecc", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/partition_table", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/soc", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/spi_flash", "C:/Espressif/frameworks/esp-idf-v4.2.3/components/xtensa", "" ]
+}
